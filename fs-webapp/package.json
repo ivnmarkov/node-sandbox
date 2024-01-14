@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "start:chokidar": "node chokidar.js",
+    "start:glob-read": "node glob-read.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.18.2"
+    "chokidar": "^3.5.3",
+    "express": "^4.18.2",
+    "glob": "^10.3.10"
   }
 }

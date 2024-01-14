@@ -1,0 +1,29 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "commander.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:commander": "node commander.js",
+    "start:enquirer": "node enquirer.js",
+    "start:emit": "node emit.js",
+    "start:nextTick": "node nextTick.js",
+    "start:output-packages": "node output-packages.js",
+    "start:got-proxy-agent": "node got-proxy-agent.js",
+    "start:got-pagination-server": "node got-pagination-server.js",
+    "start:got": "npm run start:got-proxy-agent & npm run start:got-pagination-server & node got.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-progress": "^3.12.0",
+    "commander": "^11.1.0",
+    "enquirer": "^2.4.1",
+    "express": "^4.18.2",
+    "figlet": "^1.7.0",
+    "got": "^11.7.0",
+    "https-proxy-agent": "^7.0.2"
+  }
+}
